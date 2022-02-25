@@ -54,7 +54,7 @@ public class Welcome_Tab extends JFrame {
 		menuBar.setForeground(Color.BLACK);
 		
 		setJMenuBar(menuBar);
-		home_menu.setForeground(Color.WHITE);
+		home_menu.setForeground(Color.BLACK);
 		home_menu.setBackground(Color.BLACK);
 		
 		menuBar.add(home_menu);
@@ -98,7 +98,7 @@ public class Welcome_Tab extends JFrame {
 				getContentPane().setVisible(true);
 			}
 		});
-		matches_menu.setForeground(Color.WHITE);
+		matches_menu.setForeground(Color.BLACK);
 		matches_menu.setBackground(Color.BLACK);
 		
 		menuBar.add(matches_menu);
@@ -132,7 +132,7 @@ public class Welcome_Tab extends JFrame {
 		});
 		
 		matches_menu.add(schedule_menu);
-		points_table_menu.setForeground(Color.WHITE);
+		points_table_menu.setForeground(Color.BLACK);
 		points_table_menu.setBackground(Color.BLACK);
 		
 		menuBar.add(points_table_menu);
